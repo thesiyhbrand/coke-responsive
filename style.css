@@ -144,6 +144,20 @@ html, body{
     font-size: 4vw;
 }
 
+#left-hero h1:nth-child(2){
+    margin-top: -2vh;
+}
+
+#freshness{
+    display: flex;
+}
+
+#imgone{
+    margin-left: -19vw;
+    width: 20vw;
+    transform: rotate(5deg);
+}
+
 #here{
     display: flex;
     align-items: center;
@@ -209,13 +223,6 @@ html, body{
     position: absolute;
     margin-top: 100px;
     font-size: 18px
-}
-
-#imgone{
-    top: 32%;
-    transform: rotate(5deg);
-    width: 20vw;
-    position: absolute;
 }
 
 #right-arrow{
@@ -501,8 +508,8 @@ html, body{
         font-size: 15vw;
     }
     #imgone{
-        margin-top: -18vh;
-        width: 75vw;
+        margin-left: -70vw;
+        width: 70vw;
     }
     #right-arrow{
         margin-left: 35vw;
